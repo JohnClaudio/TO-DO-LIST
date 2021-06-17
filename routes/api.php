@@ -13,8 +13,3 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
-
-
-route::get('/tarefas', [App\Http\Controllers\TarefaController::class, 'mostrarTarefas']);
-route::post('/tarefas', [App\Http\Controllers\TarefaController::class, 'criarTarefa']);

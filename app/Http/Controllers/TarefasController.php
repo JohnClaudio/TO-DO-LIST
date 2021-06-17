@@ -24,10 +24,7 @@ public function inserirTarefa(Request $request){
    $tarefa = new Tarefa();
    $tarefa->fill(['tarefa'=> $request->tarefa, 'status'=>0]);
    $tarefa->save();
-  // $tarefa->create($request->all());
-
-  
-return redirect('/')->with('message','A Tarefa: '. $tarefa->tarefa. ' foi cadastrada com sucesso');
+   return redirect('/')->with('message','A Tarefa: '. $tarefa->tarefa. ' foi cadastrada com sucesso');
 
 }
 
