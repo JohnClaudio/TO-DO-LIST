@@ -1,10 +1,8 @@
-# <p align=""> 📝🟠 TO DO LIST </p>
+##  📝🟠 Lista de Tarefas Simples com Laravel e Bootstrap </p>
 
 
-### <p  align="center">  Sistema de lista de tarefas simples utilizando Laravel e Bootstrap </p>
-
- 
- <p  align="center"> <img src="https://user-images.githubusercontent.com/61328786/122454498-d79c2f00-cf81-11eb-98ca-db52f39994d4.gif" width="450"></p> 
+ ### #Execução 
+ <p  align=""> <img src="https://user-images.githubusercontent.com/61328786/122454498-d79c2f00-cf81-11eb-98ca-db52f39994d4.gif" width="450"></p> 
 
 ## Instalação e Requisitos
 
