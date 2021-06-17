@@ -14,46 +14,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
     <style>
-        .formulario 
+        .degrade
         {
-            width: 40%;
-            justify-content: center;
-        }
-
-        .formulario>input:focus 
-        {
-            border-style: solid;
-            border-color: chocolate;
-        }
-
-        .btn-add 
-        {
-            background-image: linear-gradient(to right top, #969ea8, #8e92bf, #ad7bc3, #da54a6, #f80c68);
-            width: 100%;
-            height: 40px;
-        }
-
-        .degrade4 
-        {
-            background-image: linear-gradient(to right top, #b9b9bb, #a496ad, #9f6f91, #9b4564, #8c162b);
+            background-image: linear-gradient(to right top, #2d2d2e, #252728, #1e2121, #171b19, #131410);
+          
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: 100%;
         }
+        tbody, td, tfoot, th, thead{
+           border-style: none;
+       }
 
-        html,
-        body{
-            height: 100%;
-        }
     </style>
 
 </head>
 
-<body class="degrade4">
-
-<div class="container d-flex flex-column align-items-center">
+<body class="degrade">
+    
+<div class="container d-flex flex-column align-items-center ">
     @yield('conteudo')
-
 </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"

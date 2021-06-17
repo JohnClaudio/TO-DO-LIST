@@ -14,30 +14,8 @@ use App\Http\Controllers\TarefasController;
 |
 */
 
-Route::get('/', [TarefasController::class, 'mostrarTarefas']);
-Route::get('/teste', [TarefasController::class, 'teste']);
-Route::post('/teste', [TarefasController::class, 'inserirTarefa']);
-Route::patch('/teste', [TarefasController::class, 'atualizarDados']);
-/*
-Route::prefix('admin')->group(function () {
+Route::get('/', [TarefasController::class, 'mostrarTarefas'])->name('mostrarTarefas');
+Route::post('/addtask', [TarefasController::class, 'inserirTarefa'])->name('inserirTarefa');
+Route::patch('/taskupdate/{id}', [TarefasController::class, 'atualizarDados'])->name('atualizarTarefa');
+Route::delete('/taskdelete/{id}', [TarefasController::class, 'deletarTarefa'])->name('deletarTarefa');
 
-    Route::get('/users', function () {
-        // Matches The "/admin/users" URL
-    });
-
-    Route::get('/clientes', function () {
-        // Matches The "/admin/users" URL
-    });
-
-});
-//Route::get('/minha', [App\Http\Controllers\ApiController::class, 'index']);
-
-Route::get('/nome', function(){
-  return 'oi amigos';
-});
-
-
-Route::fallback(function(){
-  return 'pagina invalida';
-});
-*/
