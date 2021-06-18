@@ -29,14 +29,14 @@ cp .env.example .env
 ### 4. Dentro do arquivo .env altere as configuração de acordo com o seu banco de dados, exemplo abaixo.
 ```
 DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
+DB_HOST=127.0.0.1 (localhost)
 DB_PORT=3306
 DB_DATABASE=laravel
 DB_USERNAME=root
-DB_PASSWORD=
+DB_PASSWORD=minhasenha
 ```
 
-### 5. Utilize o Migrate para criar a database/table automaticamente
+### 5. Utilize o Migrate para criar a tabela no banco de dados
 
 ````
 php artisan migrate
