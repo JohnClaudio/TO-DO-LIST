@@ -1,4 +1,4 @@
-##  📝🟠 Lista de Tarefas Simples com Laravel e Bootstrap </p>
+##  📝🟠 Lista de Tarefas com Laravel e Bootstrap </p>
 
 
  ### #Execução 
